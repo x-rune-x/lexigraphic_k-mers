@@ -26,7 +26,6 @@ def self_cartesion(symbol_list, n, length, k_mer, string_list):
     return string_list
 
 
-
 def process_file(input_file):
     file = open(input_file, 'r')
     symbols = file.readline().strip().replace(' ', '')
